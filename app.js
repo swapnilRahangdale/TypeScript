@@ -9,6 +9,6 @@ var fun1 = function () {
 };
 //    const returnAdd:number = fun1();
 //    console.log('returnAdd',returnAdd);
-var addFun = function (a, b) { return a + b; };
-var addFunReturn = addFun(1, '12');
+var addFun = function (a, b) { return a + b.toString(); };
+var addFunReturn = addFun(1, 12);
 console.log(addFunReturn);
