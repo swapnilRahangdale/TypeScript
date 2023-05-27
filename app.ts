@@ -3,13 +3,13 @@ console.log("this is a ts file2");
 
 const fun1 = () => {
 
-    let a:number = 12;
+    const a:number = 25;
 
-    //a = '13';
+    
 
-    const b :string = '25';
+    const b :number = 25;
 
-    const add:string = a + b;
+    const add:number = a + b;
 
     console.log(add);
 
@@ -17,13 +17,13 @@ const fun1 = () => {
 
 }
 
-//    const returnAdd:string = fun1();
+   const returnAdd:number = fun1();
 
-//    console.log('returnAdd',returnAdd);
+   console.log('returnAdd',returnAdd);
 
 
-const addFun = (a:number,b:string) => a+parseInt(b)
+// const addFun = (a:number,b:string) => a+parseInt(b)
 
-const addFunReturn :string = addFun(1,'8').toString();
+// const addFunReturn :string = addFun(1,'8').toString();
 
-console.log(addFunReturn);
+// console.log(addFunReturn);

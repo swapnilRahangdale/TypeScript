@@ -1,7 +1,7 @@
 console.log("this is a ts file");
 console.log("this is a ts file2");
 var fun1 = function () {
-    var a = 12;
+    var a = 25;
     //a = '13';
     var b = '25';
     var add = a + b;
