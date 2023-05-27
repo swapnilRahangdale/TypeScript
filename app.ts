@@ -22,9 +22,9 @@ const fun1 = () => {
 //    console.log('returnAdd',returnAdd);
 
 
-const addFun = (a:number,b:number) => a + b.toString()
+const addFun = (a:number,b:string) => a + parseInt(b) ;
 
-const addFunReturn :string = addFun(1,12);
+const addFunReturn :string = addFun(1,'56');
 
 console.log(addFunReturn);
 
