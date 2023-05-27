@@ -17,13 +17,13 @@ const fun1 = () => {
 
 }
 
-   const returnAdd:number = fun1();
+//    const returnAdd:number = fun1();
 
-   console.log('returnAdd',returnAdd);
+//    console.log('returnAdd',returnAdd);
 
 
-// const addFun = (a:number,b:string) => a+parseInt(b)
+const addFun = (a:number,b:string) => a +b
 
-// const addFunReturn :string = addFun(1,'8').toString();
+const addFunReturn :string = addFun(1,'12');
 
-// console.log(addFunReturn);
+console.log(addFunReturn);
