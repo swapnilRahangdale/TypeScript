@@ -4,7 +4,7 @@ const addvalue1 = (a:number,b:number):number => {
     const aValue:number = a;
     const bValue:number = b;
 
-    const newValue:number = aValue + bValue;
+    const newValue:number = aValue / bValue;
 
     return newValue;
 
